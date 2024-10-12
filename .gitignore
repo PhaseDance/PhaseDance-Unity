@@ -35,10 +35,22 @@ PhaseDance/Logs
 *.apk
 *.unitypackage
 
-# Other
-PhaseDance/Assets/Demo/Basketball/Build
-PhaseDance/Assets/Demo/Basketball/Build.meta
+# 
+*.wav
+*.onnx
 
-PhaseDance/Assets/Dance/Assets/Motions
-PhaseDance/Assets/Dance/Assets/Music
+# Assets
+PhaseDance/Assets/PhaseDance/Dance/Assets/Motions/casual/*/*.bvh.asset
+PhaseDance/Assets/PhaseDance/Dance/Assets/Motions/casual/*/*.unity
 
+PhaseDance/Assets/PhaseDance/Dance/Assets/Motions/street/*/*.bvh.asset
+PhaseDance/Assets/PhaseDance/Dance/Assets/Motions/street/*/*.unity
+
+PhaseDance/Assets/PhaseDance/Dance/Assets/Music/casual/*/*.bvh.asset
+PhaseDance/Assets/PhaseDance/Dance/Assets/Music/casual/*/*.unity
+
+PhaseDance/Assets/PhaseDance/Dance/Assets/Music/casual/features/*.asset
+PhaseDance/Assets/PhaseDance/Dance/Assets/Music/street/features/*.asset
+
+PhaseDance/Assets/PhaseDance/Dance/Assets/Music/street/*/*.bvh.asset
+PhaseDance/Assets/PhaseDance/Dance/Assets/Music/street/*/*.unity
