@@ -17,7 +17,7 @@ namespace AI4Animation {
 		private List<string> Imported;
 		private List<string> Skipped;
 
-		[MenuItem ("AI4Animation/Importer/TXT Importer")]
+		[MenuItem ("PhaseDance/Importer/TXT Importer")]
 		static void Init() {
 			Window = EditorWindow.GetWindow(typeof(TXTImporter));
 			Scroll = Vector3.zero;

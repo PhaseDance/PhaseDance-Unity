@@ -14,7 +14,7 @@ namespace AI4Animation {
 		public int Framerate = 60;
 		public float Scale = 1f;
 
-		[MenuItem ("AI4Animation/Importer/FBX Multi Importer")]
+		[MenuItem ("PhaseDance/Importer/FBX Multi Importer")]
 		static void Init() {
 			Window = EditorWindow.GetWindow(typeof(FBXMultiImporter));
 			Scroll = Vector3.zero;

@@ -16,7 +16,7 @@ namespace AI4Animation {
 
 		private MotionEditor Editor = null;
 
-		[MenuItem ("AI4Animation/Tools/Asset Pipeline")]
+		[MenuItem ("PhaseDance/Tools/Asset Pipeline")]
 		static void Init() {
 			Window = EditorWindow.GetWindow(typeof(AssetPipeline));
 			Scroll = Vector3.zero;
@@ -194,7 +194,7 @@ namespace AI4Animation {
 				string path = Application.dataPath;
 				path = path.Substring(0, path.LastIndexOf("/"));
 				path = path.Substring(0, path.LastIndexOf("/"));
-				path += "/DeepLearning/Dataset";
+				path += "/Output/Dataset";
 				return path;
 			}
 
@@ -366,6 +366,7 @@ namespace AI4Animation {
 			}
 
 			public void Finish() {
+				Debug.Log("Finish");
 				Finished = true;
 
 				//Wait for remaining features

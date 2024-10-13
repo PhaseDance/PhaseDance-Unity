@@ -17,7 +17,7 @@ namespace AI4Animation {
 		private List<string> Imported;
 		private List<string> Skipped;
 
-		[MenuItem ("AI4Animation/Importer/BVH Importer")]
+		[MenuItem ("PhaseDance/Importer/BVH Importer")]
 		static void Init() {
 			Window = EditorWindow.GetWindow(typeof(BVHImporter));
 			Scroll = Vector3.zero;

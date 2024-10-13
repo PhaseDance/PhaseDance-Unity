@@ -11,7 +11,7 @@ namespace AI4Animation {
 
 		private MotionEditor Editor = null;
 
-        [MenuItem ("AI4Animation/Tools/Clip Length Analyzer")]
+        [MenuItem ("PhaseDance/Tools/Clip Length Analyzer")]
         static void Init() {
             Window = EditorWindow.GetWindow(typeof(ClipLengthAnalyzer));
             Scroll = Vector3.zero;

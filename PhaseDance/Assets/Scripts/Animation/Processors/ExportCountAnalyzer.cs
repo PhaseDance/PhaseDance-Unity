@@ -12,7 +12,7 @@ namespace AI4Animation {
         private int ExportCount = 0;
         private int FrameCount = 0;
 
-        [MenuItem ("AI4Animation/Tools/Export Count Analyzer")]
+        [MenuItem ("PhaseDance/Tools/Export Count Analyzer")]
         static void Init() {
             Window = EditorWindow.GetWindow(typeof(ExportCountAnalyzer));
             Scroll = Vector3.zero;

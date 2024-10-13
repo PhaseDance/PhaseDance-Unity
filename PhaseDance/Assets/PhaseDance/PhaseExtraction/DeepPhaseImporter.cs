@@ -19,7 +19,7 @@ namespace AI4Animation {
         private int Count = 0;
         private int BatchSize = 1000;
 
-		[MenuItem ("AI4Animation/Importer/Deep Phase Importer")]
+		[MenuItem ("PhaseDance/Importer/Deep Phase Importer")]
 		static void Init() {
 			Window = EditorWindow.GetWindow(typeof(DeepPhaseImporter));
 			Scroll = Vector3.zero;

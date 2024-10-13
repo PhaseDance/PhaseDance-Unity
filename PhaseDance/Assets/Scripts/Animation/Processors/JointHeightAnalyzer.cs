@@ -13,7 +13,7 @@ namespace AI4Animation {
 
         private MotionEditor Editor = null;
 
-        [MenuItem ("AI4Animation/Tools/Joint Height Analyzer")]
+        [MenuItem ("PhaseDance/Tools/Joint Height Analyzer")]
         static void Init() {
             Window = EditorWindow.GetWindow(typeof(JointHeightAnalyzer));
             Scroll = Vector3.zero;

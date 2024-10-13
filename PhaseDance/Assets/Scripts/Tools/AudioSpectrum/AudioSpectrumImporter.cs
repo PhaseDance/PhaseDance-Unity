@@ -12,7 +12,7 @@ namespace AI4Animation {
 		public string Destination = string.Empty;
         public int Framerate = 60;
 
-		[MenuItem ("AI4Animation/Importer/Audio Spectrum Importer")]
+		[MenuItem ("PhaseDance/Importer/Audio Spectrum Importer")]
 		static void Init() {
 			Window = EditorWindow.GetWindow(typeof(AudioSpectrumImporter));
 			Scroll = Vector3.zero;
