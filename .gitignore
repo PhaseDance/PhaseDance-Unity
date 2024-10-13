@@ -38,6 +38,7 @@ PhaseDance/Logs
 # 
 *.wav
 *.onnx
+*.onnx.meta
 
 # Assets
 PhaseDance/Assets/PhaseDance/Dance/Assets/Motions/casual/*/*.bvh.asset
