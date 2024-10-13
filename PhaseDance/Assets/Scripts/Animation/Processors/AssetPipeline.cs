@@ -366,7 +366,6 @@ namespace AI4Animation {
 			}
 
 			public void Finish() {
-				Debug.Log("Finish");
 				Finished = true;
 
 				//Wait for remaining features

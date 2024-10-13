@@ -59,7 +59,6 @@ namespace DeepPhase {
             Sequence = 0;
             S = AssetPipeline.Data.CreateFile("Sequences", AssetPipeline.Data.TYPE.Text);
             X = new AssetPipeline.Data("Data", true, false, true);
-            Debug.Log("Begin");
         }
 
         private void WriteSequenceInfo(int sequence, int frame, bool mirrored, MotionAsset asset) {
@@ -112,7 +111,6 @@ namespace DeepPhase {
         }
 
         public override void Finish() {
-            Debug.Log("Finish");
             S.Close();
             X.Finish();
         }
