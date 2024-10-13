@@ -38,6 +38,7 @@ PhaseDance/Logs
 # 
 *.wav
 *.onnx
+*.bin
 *.onnx.meta
 
 # Assets
@@ -55,3 +56,6 @@ PhaseDance/Assets/PhaseDance/Dance/Assets/Music/street/features/*.asset
 
 PhaseDance/Assets/PhaseDance/Dance/Assets/Music/street/*/*.bvh.asset
 PhaseDance/Assets/PhaseDance/Dance/Assets/Music/street/*/*.unity
+
+# Dataset
+DeepLearning/Dataset/*.txt
