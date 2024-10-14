@@ -57,7 +57,9 @@ namespace DeepPhase {
             Actor = GetComponent<Actor>();
 
             TimeSeries = new TimeSeries(6, 6, 1f, 1f, 10);
-            MusicSeries = new TimeSeries(20, 20, 1f, 1f, 3);
+            MusicSeries = new TimeSeries(6, 6, 1f, 1f, 10);
+            // MusicSeries = new TimeSeries(20, 20, 1f, 1f, 3);
+            
 
             RootSeries = new RootModule.Series(TimeSeries, transform);
             ContactSeries = new ContactModule.Series(TimeSeries, "LeftFoot", "RightFoot");
@@ -181,6 +183,7 @@ namespace DeepPhase {
             Matrix4x4 root = Actor.GetRoot().GetWorldMatrix();
 
             //Input Timeseries
+            Debug.Log("Input: " + TimeSeries.KeyCount * 2);
             for(int i=0; i<TimeSeries.KeyCount; i++) {
                 int index = TimeSeries.GetKey(i).Index;
                 NeuralNetwork.FeedXZ(RootSeries.GetPosition(index).PositionTo(prev));

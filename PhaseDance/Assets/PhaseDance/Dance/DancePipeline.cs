@@ -33,7 +33,7 @@ namespace DeepPhase
         private int m_futureKeys = 6;
         private float m_pastWindow = 1f;
         private float m_futureWindow = 1f;
-        private int m_resolution = 10;
+        private int m_resolution = 1; // 10;
 
         private AssetPipeline.Data.File s;
         private AssetPipeline.Data x, y;
