@@ -1244,7 +1244,7 @@ public static class UltiDraw {
 
 		Resources.UnloadUnusedAssets();
 
-		FontType = (Font)Resources.Load("Fonts/Coolvetica");
+		FontType = (Font)Resources.Load("Fonts/Segoe UI Bold");
 
 		Texture = new Texture2D(1,1);
 
